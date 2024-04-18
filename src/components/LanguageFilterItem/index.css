@@ -1,0 +1,25 @@
+button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: #0f172a;
+  font-family: Roboto;
+  font-weight: bold;
+  padding: 4px;
+  cursor: pointer;
+  min-width: 60px;
+}
+li {
+  margin-left: 12px;
+  margin-right: 12px;
+}
+.activeTabStyle{
+    color: #0284c7;
+    border: 1px solid #0284c7;
+    border-radius: 14px;
+}
+@media screen and (min-width:768px){
+    button{
+         min-width: 85px;
+    }
+}

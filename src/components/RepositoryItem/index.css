@@ -1,0 +1,33 @@
+.list-card {
+  list-style-type: none;
+  margin: 10px;
+  background-color: #f8f8ff;
+  padding: 20px;
+  min-width: 200px;
+  border-radius: 9px;
+}
+.avatar-name {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.avatar-image {
+  width: 120px;
+}
+.name {
+  color: #e73959;
+  font-family: Roboto;
+  font-size: 15px;
+  text-align: center;
+}
+.icons {
+  width: 20px;
+}
+.num {
+  margin: 8px;
+}
+.list-div {
+  display: flex;
+  align-items: center;
+}
